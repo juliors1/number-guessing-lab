@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
+body {
+  text-align: center;
+  margin: 50px;
+  font-family: "Fredoka One", cursive;
+  background-color: #f8b195;
+}
+
+#prevGuess {
+  margin-top: 30px;
+  font-size: 20px;
+}
+
+.guess {
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+#resetButton {
+  margin-top: 20px;
+}
+
+.high {
+  color:red
+}
+
+.low {
+  color:blue;
+
+}
+
+.winner {
+  background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
